@@ -49,5 +49,20 @@ def using_delete_at(array, integer)
   array.delete_at(integer)
 end
 
+=======
+  array.unshift("string")
+end
+
+
+
+
+def using_concat
+  bat = ["a", "b", "c"]
+   ball = ["f", "g", "h"]
+   bat.concat(ball)
+   bat
+ end
+  
+>>>>>>> 51119fa8848ed12db63a8708e0a21dd18df0fea4
 
 
